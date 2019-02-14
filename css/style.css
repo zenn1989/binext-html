@@ -239,13 +239,24 @@ ul.clear-menu > li > a:hover {
 }
 
 .masthead {
+    color: #fff;
+    text-align: center;
+}
+
+.bg-mh {
     background-image: url(../img/masthead-bg.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    color: #fff;
-    text-align: center;
+}
+
+.bg-office {
+    background-image: url(../img/office-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .masthead .bg-gradient-blue {
@@ -257,7 +268,7 @@ ul.clear-menu > li > a:hover {
     text-align: left;
 }
 
-.intro-text {
+.intro-text, .intro-clear {
     padding-top: 105px;
 }
 
@@ -271,7 +282,7 @@ ul.clear-menu > li > a:hover {
 }
 
 @media (min-width: 768px) {
-    .intro-text {
+    .intro-text, .intro-clear {
         margin-right: 100px;
         margin-left: 100px;
     }
@@ -283,6 +294,15 @@ ul.clear-menu > li > a:hover {
 
     .after-head {
         margin-top: -70px;
+    }
+
+    .legend-callback form {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .btn-ads-padding {
+        padding-top: 6rem;
     }
 }
 
